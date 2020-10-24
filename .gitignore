@@ -1,0 +1,18 @@
+# Virtual Envs
+.env
+virtualenv/
+venv/
+env/
+
+# Subdir Pycache
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*.log
+*.pot
+*.pyc
+
+# pycharm and vscode files
+.vscode/
+.idea/
