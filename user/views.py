@@ -20,6 +20,7 @@ class LoginApi(APIView):
         password = data['password'] if 'password' in data else None
         is_google_auth = False if password else True
 
+        #Existing User
         user = User.objects.filter(email=email)
 
         if not user.exists():
